@@ -17,5 +17,10 @@ public class Persona {
     edad += 1;
     return edad;
   }
+  
+  public String DatosPersona() {
+    String datos = "Nombre: " + nombre + ", Apellidos: " + apellidos + ", Edad: " + edad;
+    return datos;
+  }
 
 }
